@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+.DrumMachine {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: black;
+  color:aliceblue;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.buttons {
+  align-items: center;
+
+}
+
+
+
+.display {
+  background-color: dimgray;
+  height: calc(12px + 2vmin);
+  font-size: 20px;
+  color:chartreuse;
+  border: 1px solid white;
+  width: 200px;
+  margin-top: 20px;
+
+}
+
+.drum-pad {
+  background-color: dimgray;
+  border: 1px solid fuchsia;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+.drum-pad :hover{
+  background-color:fuchsia;
+  color:greenyellow;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
